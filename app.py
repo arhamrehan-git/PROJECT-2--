@@ -1,4 +1,4 @@
-"""app.py - Streamlit UI.  Run:  streamlit run app.py   (after  python train.py)"""
+
 from pathlib import Path
 
 import joblib
@@ -37,7 +37,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# charts: transparent + mid-grey text so they look right in both light and dark themes
+
 plt.rcParams.update({
     "figure.facecolor": "none", "axes.facecolor": "none", "savefig.facecolor": "none", "savefig.transparent": True,
     "text.color": GRAY, "axes.labelcolor": GRAY, "xtick.color": GRAY, "ytick.color": GRAY, "axes.edgecolor": GRAY,
